@@ -1,0 +1,186 @@
+@font-face {
+    font-family: "Montserrat-Bold";
+    src: url("../fonts/Montserrat-Bold.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "OpenSans-SemiBold";
+    src: url("../fonts/OpenSans-SemiBold.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0 ;
+    min-width: 960px;
+    overflow-x: scroll;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: white;
+    justify-content:space-around;
+    background-color: #525EA7;
+}
+
+aside {
+    width: 19%;
+    font-family: "OpenSans-SemiBold";
+    background-color: #F2F3F4;
+    padding: 30px 20px 0px 55px;
+}
+
+main {
+    width: 59%;
+    height: 100%;
+    font-family: "OpenSans-SemiBold";
+    margin: 30px 0px 70px 10px;
+}
+
+.avatar {
+    background-image: url("../images/avatar.jpg");
+    background-size: 150px 120px;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    margin-top: 23px;
+}
+
+.name {
+    font-family: "Montserrat-Bold";
+    font-size: 40px;
+    width:50%;
+    margin: 45px 350px 0px 0px;*/
+}
+
+.professtion {
+    font-family: "OpenSans-SemiBold";
+    margin: 5px 0 20px 0px;
+    font-size: 25px;
+}
+
+.contact {
+    text-align: left;
+    margin-top: 20px;
+    font-size: 17px;
+}
+
+.contactimg {
+    position: relative;
+    margin-right: 20px;
+    top: -8px;
+    width: 17px;
+    height: 20px;
+}
+
+a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+}
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+.mail {
+    display: inline-block;
+    list-style-type: none;
+    padding-left: 0;
+    margin: 5px 0 15px 0;
+}
+
+.allign {
+    position: relative;
+    top: -10px;
+}
+
+.info {
+    height: 40px;
+    width: 40px;
+}
+
+.interests {
+    height: 55px;
+    width: 55px;
+    margin-right: 25px;
+}
+
+.intresststext {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 35px;
+}
+
+.awwards {
+    margin: 0;
+    font-size: 15px;
+}
+
+.reference {
+    display: flex;
+    flex-direction: row;
+    color: grey;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+.referenceimg {
+    position: relative;
+    top: +23px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    border-width: 7px;
+    border-style: solid;
+    ;
+    border-color: grey;
+    margin-right: 10px;
+}
+
+div .referencetext p {
+    margin: 3px;
+}
+
+h3 {
+    position: relative;
+    top: -14px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.portfolio {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 40px;
+}
+
+figure {
+    width: 300px;
+    height: 200px;
+    background-color:lightgray;
+    text-align: center;
+    border-width: 5px;
+    border-color: #525EA7;
+    border-style: solid;
+    border-radius:5px;
+}
+
+figcaption {
+    background-color: white;
+    font-size: 15px;
+    margin-top: 160px;
+}
